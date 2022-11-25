@@ -3,6 +3,7 @@ from passlib.context import CryptContext
 
 pwd_context = CryptContext(schemes=["bcrypt"])
 
+
 class UserOutput(SQLModel):
     id: int
     username: str
@@ -63,4 +64,3 @@ class Car(CarInput, table=True):
 class CarOutput(CarInput):
     id: int
     trips: list[TripOutput] = []
-

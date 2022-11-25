@@ -1,7 +1,7 @@
 from unittest.mock import Mock
 from fastapi.testclient import TestClient
 
-from carsharing import app
+from local_json_storage_api.carsharing_local_db import app
 from routers.cars import add_car
 from schemas import CarInput, User, Car
 
