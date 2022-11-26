@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, HTTPException
-from local_json_storage_api.schemas_pydantic import load_db, save_db, CarInput, CarOutput, TripInput, TripOutput
+from local_json_storage_api.schemas_json import load_db, save_db, CarInput, CarOutput, TripInput, TripOutput
 
 app = FastAPI(title="Car Sharing")
 db = load_db()
@@ -82,4 +82,4 @@ def add_trip(car_id: int, trip: TripInput) -> TripOutput:
 
 
 if __name__ == "__main__":
-    uvicorn.run("carsharing_local_db:app", reload=True)
+    uvicorn.run("carsharing_json:app", reload=True)

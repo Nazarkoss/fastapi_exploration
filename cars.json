@@ -140,5 +140,29 @@
         "transmission": "auto",
         "id": 12,
         "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 13,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 14,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 15,
+        "trips": []
     }
 ]
