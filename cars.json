@@ -164,5 +164,69 @@
         "transmission": "auto",
         "id": 15,
         "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 16,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 17,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 18,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 19,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 20,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 21,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 22,
+        "trips": []
+    },
+    {
+        "size": "xxl",
+        "fuel": "electric",
+        "doors": 7,
+        "transmission": "auto",
+        "id": 23,
+        "trips": []
     }
 ]
