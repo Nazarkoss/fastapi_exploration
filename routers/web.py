@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Request, Form, Depends, Cookie
 from sqlmodel import Session
+# starlette is the library the Fast api uses in order to serve the HTTP/HTML.
 from starlette.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
@@ -18,6 +19,9 @@ def home(request: Request, cars_cookie: str|None = Cookie(None)):
                                       {"request": request})
 
 
+# * is a new feature for python, normally arguments without the default value should come first.
+# * allows us to do it, because it turns everything that comes after into a keyword arguments.
+# type(...) is a python object of class ellipsis, ... tels that the fields are required.
 @router.post("/search", response_class=HTMLResponse)
 def search(*, size: str = Form(...), doors: int = Form(...),
            request: Request,

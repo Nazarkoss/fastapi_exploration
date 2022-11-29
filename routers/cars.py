@@ -5,6 +5,14 @@ from routers.auth import get_current_user
 from db import get_session
 from schemas import Car, CarOutput, CarInput, Trip, TripInput, User
 
+# We want to keep a clean separation between the app and the specific callback functions related to some concepts
+# like car. In other words we want to "import" this file to the main app file. However, we would normally need
+# to decorate the callback functions with @app.
+# => The solution is to use the router object to the related path specific callbacks and add this routed to the
+# main app "app.include_router(cars.router)"
+
+# APIRouter is an instance decorator
+# The path above is unique and we can do versioning very easily...
 router = APIRouter(prefix="/api/cars")
 
 
