@@ -36,7 +36,7 @@ jobs:
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: "Set project repository"
-          command: cd */fastapi_exploration
+          command: cd */project
           
       - run:
           name: Run tests
