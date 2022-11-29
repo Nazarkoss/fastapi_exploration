@@ -1,4 +1,6 @@
 from fastapi.testclient import TestClient
+import os
+print(os.getcwd())
 
 from local_json_storage_api.carsharing_json import app
 
