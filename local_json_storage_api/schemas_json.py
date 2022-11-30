@@ -42,6 +42,8 @@ class Config:
 
 
 def load_db() -> list[CarOutput]:
+    import os
+    raise ValueError(os.getcwd())
     with open("../cars.json") as f:
         return [CarOutput.parse_obj(obj) for obj in json.load(f)]
 
