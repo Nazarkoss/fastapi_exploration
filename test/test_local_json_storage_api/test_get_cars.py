@@ -1,6 +1,6 @@
 from fastapi.testclient import TestClient
 
-from  local_json_storage_api.carsharing_json import app
+from local_json_storage_api.carsharing_json import app
 
 client = TestClient(app)
 
