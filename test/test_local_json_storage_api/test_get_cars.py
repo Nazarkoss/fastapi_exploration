@@ -1,9 +1,5 @@
 from fastapi.testclient import TestClient
 
-import os
-import sys
-sys.path.append(os.path.join(__file__, '..', '..'))
-
 from  local_json_storage_api.carsharing_json import app
 
 client = TestClient(app)
