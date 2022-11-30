@@ -1,6 +1,5 @@
 from fastapi.testclient import TestClient
 
-from schemas import UserOutput
 from local_json_storage_api.carsharing_json import app
 
 client = TestClient(app)
