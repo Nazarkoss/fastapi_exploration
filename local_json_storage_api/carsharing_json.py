@@ -82,4 +82,4 @@ def add_trip(car_id: int, trip: TripInput) -> TripOutput:
 
 
 if __name__ == "__main__":
-    uvicorn.run("carsharing_json:app", reload=True)
+    uvicorn.run("local_json_storage_api.carsharing_json:app", reload=True)
